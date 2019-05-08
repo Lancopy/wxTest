@@ -2,12 +2,20 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/table/table",
-    "pages/lists/lists",
-    "pages/orders/orders",
-    "pages/Login/login",
-    "pages/Tools/tools",
-    "pages/lyb/lyb"
+    "pages/pitems/pitems",
+    "pages/category/category",
+    "tools/Wxmls/wxml",
+    "tools/lyb/lyb",
+    "tools/calc/calc",
+    "tools/lxjsq/lxjsq",
+    "tools/guess/guess",
+    "tools/wxapi/wxapi",
+    "tools/table/table",
+    "pages/myprofile/myprofile",
+    "pages/mymsg/mymsg",
+    "pages/myfavorite/myfavorite",
+    "pages/setting/setting",
+    "pages/more/more"
   ],
   "tabBar": {
     "color": "#7A7E83",
@@ -22,19 +30,19 @@
         "text": "首页"
       },
       {
-        "pagePath": "pages/table/table",
+        "pagePath": "pages/myfavorite/myfavorite",
         "iconPath": "images/3.png",
         "selectedIconPath": "/images/4.png",
         "text": "列表"
       },
       {
-        "pagePath": "pages/lyb/lyb",
+        "pagePath": "pages/more/more",
         "iconPath": "images/5.png",
         "selectedIconPath": "images/6.png",
         "text": "案例"
       },
       {
-        "pagePath": "pages/logs/logs",
+        "pagePath": "pages/myprofile/myprofile",
         "iconPath": "images/7.png",
         "selectedIconPath": "images/8.png",
         "text": "设置"
@@ -46,6 +54,11 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "琳琅先驱者",
     "navigationBarTextStyle": "black"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
   },
   "sitemapLocation": "sitemap.json"
 }
